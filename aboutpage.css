@@ -1,0 +1,41 @@
+﻿section {
+    background-color: white;
+}
+
+.about_section {
+    background-color: white;
+}
+
+.hr {
+    border-top: 3px solid black;
+}
+
+.about_body {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #F7F2E8;
+}
+
+.text {
+    padding: 20px;
+    background-color: #F7F2E8;
+    border-radius: 20px;
+}
+
+.about_section img {
+    /*height: 150px;
+    width: 150px;*/
+}
+
+.about_section h3 {
+    color: #e48465;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+.about_section p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}

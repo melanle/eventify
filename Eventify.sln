@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventify", "Eventify.csproj", "{74DAF1A2-B457-4F56-84B1-4A31E28C6F3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Styling", "Styling", "{3132384C-57D8-4A7E-9EB8-6C47E0F47123}"
+	ProjectSection(SolutionItems) = preProject
+		aboutpage.css = aboutpage.css
+		calendar.css = calendar.css
+		homepage.css = homepage.css
+		Login.css = Login.css
+		master.css = master.css
+		Signup.css = Signup.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74DAF1A2-B457-4F56-84B1-4A31E28C6F3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74DAF1A2-B457-4F56-84B1-4A31E28C6F3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74DAF1A2-B457-4F56-84B1-4A31E28C6F3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74DAF1A2-B457-4F56-84B1-4A31E28C6F3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73221441-58B9-4AEE-B692-B6E51D2BAC43}
+	EndGlobalSection
+EndGlobal

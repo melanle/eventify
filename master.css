@@ -1,0 +1,16 @@
+﻿
+
+.mycontainer {
+    background-color: #e48465;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.mycontainer a{
+    color: #ffffff;
+}
+
+    .mycontainer a:hover {
+        color: #000000;
+        text-decoration: none;
+    }

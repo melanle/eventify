@@ -1,0 +1,96 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="loggedin.master.cs" Inherits="Eventify.loggedin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="aboutpage.css">
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="Login.css">
+    <link rel="stylesheet" href="calendar.css">
+
+  
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+           <nav class="navbar navbar-expand-lg navbar-light">
+               <a class="navbar-brand">
+               <img src="images/logo/logo.png" width="30" height="30"/>
+               Eventify
+
+               </a>
+               <%--bootstrap code, when window shrinked, nav bar shrinks--%>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="home1.aspx">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="about1.aspx">About Us</a>
+                        </li>
+
+                    </ul>
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <asp:LinkButton class="nav-link" ID="LinkButton4" PostBackUrl="calendar.aspx" runat="server">View Calendar</asp:LinkButton>
+                        </li>
+                        <li class="nav-item active">
+                            <asp:LinkButton class="nav-link" ID="LinkButton3" PostBackUrl="home.aspx" runat="server">Logout</asp:LinkButton>
+                        </li>
+                    </ul>
+                </div>
+           </nav>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+</asp:ContentPlaceHolder>
+        </div>
+      
+        <div class="mycontainer">
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Contact Us</h3>
+                <p>Email: melanie.f@somaiya.edu</p>
+                <p>Email: hussain.m@somaiya.edu</p>
+                <p>Andheri, Mumbai</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="about1.aspx">About Us</a></li>
+                    <li><a href="terms1.aspx">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h3>Follow Us</h3>
+                <ul class="social-icons">
+                    <li><a href="https://www.facebook.com"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.linkedin.com"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-center">&copy; 2024 Eventify. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

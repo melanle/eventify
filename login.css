@@ -1,0 +1,18 @@
+﻿.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.login {
+    background-color: #F7F2E8;
+}
+
+#login_container{
+    padding: 80px;
+}
+
+#submit_btn {
+    background-color: #e48465;
+    border: 1px #e48465;
+}
